@@ -11,7 +11,9 @@ for i in range(0,3):
     number= random.randint(0,10)
     if choosen_number == number:
         print("You guess right")
+        break
     else:
         print("Unfortunately, you guessed it wrong")
+print("number was: ", number)
 
 
